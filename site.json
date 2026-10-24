@@ -1,0 +1,1908 @@
+{
+ "lab": {
+  "name": "Geotechnical Earthquake and GeoHazards Lab",
+  "short": "GEHL",
+  "nameKo": "지반지진 및 재해 연구실",
+  "tagline": "We make the world safer",
+  "intro": "GEHL studies how earthquakes and related geohazards affect soils, foundations, and the infrastructure built on them. We combine geotechnical centrifuge modeling, numerical simulation, analytical methods, probabilistic uncertainty quantification, and earthquake case histories to evaluate what has happened, predict what could happen, and design urban systems that stay resilient through natural disasters.",
+  "department": "Department of Civil and Environmental Engineering",
+  "university": "Korea Advanced Institute of Science and Technology (KAIST)",
+  "address": "291 Daehak-ro, Yuseong-gu, Daejeon 34141, Republic of Korea",
+  "email": "kilwanko@kaist.ac.kr",
+  "meetings": "Meetings are by appointment. Please email first.",
+  "center": "KOCED Geotechnical Centrifuge Testing Center at KAIST",
+  "mapUrl": "https://maps.google.com/?q=36.365769,127.362463",
+  "legacyUrl": "https://sites.google.com/view/gehl-kaist/home",
+  "homeNewsCount": 3,
+  "pillars": [
+   {
+    "icon": "ssi",
+    "title": "Soil-foundation-structure interaction",
+    "text": "How the ground, the footing, and the building move together in an earthquake."
+   },
+   {
+    "icon": "liq",
+    "title": "Soil liquefaction",
+    "text": "When shaking turns saturated sand into a fluid, read from the energy it dissipates."
+   },
+   {
+    "icon": "site",
+    "title": "Site response and ground motion",
+    "text": "How soil layers and terrain amplify the motion that reaches the surface."
+   },
+   {
+    "icon": "dam",
+    "title": "Dams and levees on faults",
+    "text": "Cracking and leak erosion when a fault offsets the foundation of an embankment."
+   }
+  ],
+  "methods": [
+   "Geotechnical centrifuge modeling",
+   "Numerical simulation",
+   "Analytical modeling",
+   "Probabilistic approaches and uncertainty quantification",
+   "Earthquake case-history analysis"
+  ],
+  "founded": "Lab founded at KAIST in 2025",
+  "banners": {
+   "home": "img/uploads/1fbb799670b14cc64eb95d79283cd4d6.jpg",
+   "research": "img/uploads/18fe3aa108acef41a7893eb4c9cfd103.jpg",
+   "people": "",
+   "publications": "",
+   "teaching": "",
+   "news": "",
+   "join": "",
+   "blossoms": ""
+  }
+ },
+ "research": {
+  "core": {
+   "eyebrow": "GEHL's vision and methods",
+   "title": "A reliable, realistic, and interactive seismic risk map",
+   "paragraphs": [
+    "GEHL's vision is a seismic risk map that is reliable, realistic, and interactive: one that engineers, planners, and the public can trust and use. Every project in the lab is a step toward it, and every project follows one chain: characterize the input motion, identify the soil-foundation-structure system, and predict its output. The same framework is being extended from earthquakes to other natural hazards.",
+    "Reaching that map takes methods at every scale, from the laboratory to the city. Laboratory and centrifuge tests expose the micro-mechanics of soil at the particle scale; centrifuge and numerical modeling capture the response of single and multiple structures as one system; and site characterization, from shear-wave velocity profiles to earthquake case histories and drone-based surveys, builds the liquefaction hazard and ground-motion models behind the map. Experimental, numerical, and analytical results are checked against recorded earthquakes from databases such as DesignSafe, KiK-net, and CESMD, and probabilistic methods carry the uncertainty through to the final risk estimate."
+   ],
+   "framework": [
+    {
+     "k": "Input",
+     "t": "Input motion",
+     "s": "Ground-motion characterization, seismic source and fault modeling, site response"
+    },
+    {
+     "k": "System",
+     "t": "System identification",
+     "s": "Soil, foundation, and structure as one dynamic system: centrifuge tests, element tests, numerical models"
+    },
+    {
+     "k": "Output",
+     "t": "Output prediction",
+     "s": "Settlement, rotation, pore pressure, cracking, and erosion, with their uncertainty"
+    }
+   ],
+   "loop": "Validated against earthquake case histories and fed back into design",
+   "chips": [
+    "Laboratory tests",
+    "Dynamic centrifuge modeling",
+    "Numerical modeling",
+    "Site characterization",
+    "Earthquake case histories",
+    "Probabilistic approaches and uncertainty quantification"
+   ],
+   "figure": "img/vision-methods.jpg",
+   "figureCaption": "Methods for GEHL's vision, from laboratory to urban scale: laboratory tests and centrifuge modeling for micro-mechanics, centrifuge and numerical modeling for system-level response, and site characterization for seismic hazard and risk maps."
+  },
+  "areas": [
+   {
+    "id": "ssi",
+    "eyebrow": "Research area 1 | Soil-structure interaction",
+    "title": "Dynamic Soil-Foundation-Structure Interaction",
+    "paragraphs": [
+     "Seismic design usually treats the structure and the ground separately. We measure how they move together, so that the interaction can be used in design rather than ignored. Dynamic centrifuge tests on shallow foundations, rocking foundations, and disconnected piled rafts give the data; analytical models that couple horizontal structural response with foundation rocking and swaying turn the data into predictions.",
+     "Rocking shallow foundations are a good example: rocking reduces the demand on the superstructure but leaves permanent deformation, so the question is how to use it safely. Short piles, the soil-rounding effect, cyclic versus dynamic rocking, and ground-motion intensity measures for rocking performance all come from this line of work."
+    ],
+    "topics": [
+     "Structural inertial interaction",
+     "Period-lengthening ratio of SDOF structures",
+     "Structure-to-foundation mass ratio",
+     "Rocking shallow foundations and short piles",
+     "Disconnected piled raft (DPR)",
+     "Modular buildings on pile foundations"
+    ],
+    "pubs": [
+     "j18",
+     "j14",
+     "j06",
+     "j11",
+     "j04",
+     "j01",
+     "j05",
+     "j07"
+    ],
+    "slides": "https://docs.google.com/presentation/d/1yNp8XUofbD9MQDlulWsTB0s0AGLb9GcsaP6zVIXp8k8/present",
+    "figure": "",
+    "figureCaption": ""
+   },
+   {
+    "id": "liquefaction",
+    "eyebrow": "Research area 2 | Soil liquefaction",
+    "title": "Energy-Based Soil Liquefaction Assessment",
+    "paragraphs": [
+     "We use the energy dissipated in the soil, rather than cyclic stress alone, to estimate the buildup of excess pore pressure. This makes it possible to evaluate liquefaction without pore-water-pressure transducers, to read the timing of liquefaction directly from recorded ground motions through the spectral energy ratio, and to treat dissipated energy as an index of liquefiability.",
+     "The framework has been validated against case histories such as the 2003 Tokachi-Oki earthquake at the Port of Kushiro and the 2017 Pohang earthquake, and extended into a probabilistic energy-based framework that connects triggering to consequences such as settlement. Ongoing work builds a multi-scale framework for integrated cyclic loadings and a probabilistic liquefaction hazard assessment for the Pohang region."
+    ],
+    "topics": [
+     "Energy-based triggering evaluation",
+     "Spectral energy ratio and timing of liquefaction",
+     "Pore-pressure estimation without transducers",
+     "Probabilistic liquefaction hazard assessment",
+     "Depth reduction factor in liquefiable layers",
+     "Centrifuge modeling of liquefaction"
+    ],
+    "pubs": [
+     "j24",
+     "j27",
+     "j26",
+     "j23",
+     "j22",
+     "j20",
+     "j10"
+    ],
+    "slides": "https://docs.google.com/presentation/d/1tBZnB6CfA8d3flq5uuUR5S-cezs4bpbV5-j-MyKKN0o/present",
+    "figure": "",
+    "figureCaption": ""
+   },
+   {
+    "id": "dams",
+    "eyebrow": "Research area 3 | Dams and levees",
+    "title": "Cracking and Concentrated Leak Erosion due to Fault Rupture",
+    "paragraphs": [
+     "Many embankment dams sit on or near active faults. A vertical offset in the foundation can crack the crest, and water flowing through that crack can erode the core. We estimate crack dimensions from the offset and judge the erosion potential from the erodibility and swelling of the core material.",
+     "Triaxial, swell, erosion, and beam-bending tests characterize the soil; centrifuge tests with controlled foundation offsets, run in collaboration with UC Davis, Auburn University, and the California Department of Water Resources, show how cracks propagate and how fast water moves through them; numerical models carry the mechanism to prototype scale."
+    ],
+    "topics": [
+     "Crack propagation from foundation offsets",
+     "Concentrated leak erosion",
+     "Scaling of flow through transverse cracks",
+     "Element testing of core materials",
+     "Centrifuge modeling of embankment dams",
+     "Risk assessment with the RMC toolbox"
+    ],
+    "pubs": [
+     "c21",
+     "c20",
+     "c18"
+    ],
+    "slides": "https://docs.google.com/presentation/d/1Az3RoOnAzCwC1fUZnlZ8BvYsp5IbqOI-Z43-JngRcxE/present",
+    "figure": "",
+    "figureCaption": ""
+   },
+   {
+    "id": "site",
+    "eyebrow": "Research area 4 | Site response and ground motion",
+    "title": "Seismic Site Response, Topographic Effects, and Ground Motion",
+    "paragraphs": [
+     "The motion that reaches a foundation depends on the source, the path, and the site. We work on seismic source and fault modeling, ground-motion characterization for Korean and global conditions, and one- and two-dimensional site response analysis, including the amplification caused by topography.",
+     "Dynamic centrifuge tests of slopes and ridges quantify topographic effect parameters on site amplification, and geophysical investigation (for example MASW) ties the models to real sites. The results feed national seismic design scenarios for mountainous terrain."
+    ],
+    "topics": [
+     "2D site response analysis",
+     "Topographic effects on site amplification",
+     "Ground-motion modeling",
+     "Seismic fault modeling",
+     "Geophysical investigation (MASW)",
+     "Seismic slope stability"
+    ],
+    "pubs": [
+     "j13",
+     "c13",
+     "j15",
+     "j16"
+    ],
+    "slides": "https://docs.google.com/presentation/d/1Nd1fRJdZ5oY7-BMlvSkOC53q-OoW4wCiBwLiTe_bX58/present",
+    "figure": "",
+    "figureCaption": ""
+   }
+  ],
+  "interests": [
+   "Geotechnical earthquake engineering",
+   "Seismic source characterization and fault modeling",
+   "Dynamic soil-structure interaction (SSI) and structure-soil-structure interaction (SSSI)",
+   "Soil liquefaction during earthquakes",
+   "2D seismic site response analysis",
+   "Fault-rupture-induced cracking and crack propagation in earthen dams and levees",
+   "Physical modeling in geotechnics: centrifuge modeling and scaling laws",
+   "Numerical modeling of soil-structure systems",
+   "Probabilistic approaches and uncertainty quantification"
+  ]
+ },
+ "projects": [
+  {
+   "title": "Development of an AX-based Intelligent Disaster Prevention Platform for Ultra-Safe SMR Construction Against Extreme External Hazards (InnoCORE)",
+   "sponsor": "Ministry of Science and ICT",
+   "period": "2026.07 – present",
+   "role": "Participating researcher",
+   "status": "ongoing"
+  },
+  {
+   "title": "Transformative Railway with AX Research Center (T-RAX, InnoCORE)",
+   "sponsor": "Ministry of Science and ICT",
+   "period": "2026.05 – present",
+   "role": "Participating researcher",
+   "status": "ongoing"
+  },
+  {
+   "title": "Multi-Scale Framework for Energy-Based Soil Liquefaction Assessment under Integrated Analysis of Cyclic Loadings",
+   "sponsor": "National Research Foundation of Korea",
+   "period": "2026.03 – present",
+   "role": "PI",
+   "status": "ongoing"
+  },
+  {
+   "title": "Characterization and Validation of the Impact of Topographic Effect Parameters on Site Amplification using Dynamic Centrifuge Tests",
+   "sponsor": "Korea Institute of Geoscience and Mineral Resources",
+   "period": "2026.03 – present",
+   "role": "PI",
+   "status": "ongoing"
+  },
+  {
+   "title": "Probabilistic Liquefaction Hazard Assessment for Pohang Region under Future Earthquake Scenarios",
+   "sponsor": "KAIST",
+   "period": "2026.01 – present",
+   "role": "PI",
+   "status": "ongoing"
+  },
+  {
+   "title": "Development of Depth Reduction Factor for Intensity Measures in Liquefiable Soil Layers using Nonlinear Analysis",
+   "sponsor": "KAIST",
+   "period": "2025.03 – present",
+   "role": "PI",
+   "status": "ongoing"
+  },
+  {
+   "title": "Dynamic Soil-Pile-Structure Interaction of Standard and Lightweight Modular Buildings under Earthquakes",
+   "sponsor": "Land and Housing Research Institute (LH)",
+   "period": "2026.03 – 2026.07",
+   "role": "PI",
+   "status": "completed"
+  }
+ ],
+ "people": [
+  {
+   "id": "kilwanko",
+   "name": "Kil-Wan Ko",
+   "degree": "Ph.D.",
+   "group": "pi",
+   "role": "Assistant Professor",
+   "since": "Spring 2025",
+   "affiliation": "",
+   "email": "kilwanko@kaist.ac.kr",
+   "interests": [
+    "Geotechnical earthquake engineering",
+    "Soil dynamics",
+    "Physical modeling in geotechnics"
+   ],
+   "education": [
+    "Ph.D., Civil and Environmental Engineering, KAIST, 2020",
+    "M.S., Civil and Environmental Engineering, KAIST, 2017",
+    "B.S., Civil and Environmental Engineering, KAIST, 2015"
+   ],
+   "appointments": [
+    "Assistant Professor, Civil and Environmental Engineering, KAIST, 2025 – present",
+    "Associate Director, KOCED Geotechnical Centrifuge Testing Center at KAIST, 2025 – present",
+    "Postdoctoral Scholar, Civil and Environmental Engineering, UC Davis, 2023 – 2025",
+    "Postdoctoral Scholar, Civil and Environmental Engineering, USC, 2022 – 2023",
+    "Visiting Scholar, Civil and Environmental Engineering, UC Berkeley, 2021 – 2023",
+    "Postdoctoral Scholar, Civil and Environmental Engineering, KAIST, 2020 – 2021"
+   ],
+   "aliases": [
+    "Ko, K. W."
+   ],
+   "links": {
+    "Google Scholar": "https://scholar.google.co.kr/citations?hl=en&user=ARuDnCkAAAAJ",
+    "LinkedIn": "https://www.linkedin.com/in/kil-wan-ko-16b12118b/",
+    "CV": "https://drive.google.com/file/d/1zBMg1QisFHH7Hp7La9v3d9YR0JtAhXm7/view?usp=drive_link"
+   },
+   "photo": "",
+   "bio": "Kil-Wan Ko studies geotechnical earthquake engineering and geohazards: dynamic soil-foundation-structure interaction, soil liquefaction, seismic site response, seismic fault modeling, ground-motion characterization, and the cracking and erosion of levees and dams caused by surface fault rupture. Before joining KAIST in 2025 he worked as a postdoctoral researcher at UC Davis, USC, and UC Berkeley.",
+   "awards": [
+    "Teaching Excellence Award, Department of Civil and Environmental Engineering, KAIST, 2026",
+    "Young Researcher Award, Korean Society of Civil Engineers (KSCE), 2025",
+    "Editor's Choice Paper, Journal of Geotechnical and Geoenvironmental Engineering, ASCE, 2025",
+    "Bright Spark Lecture Award, ISSMGE, 2022",
+    "Top Cited Article, Wind Energy, 2022",
+    "Presidential Science Scholarship in Mathematics, Korea Student Aid Foundation, 2010"
+   ],
+   "service": [
+    "Associate Editor, International Journal of Physical Modelling in Geotechnics, 2026 – present",
+    "Editorial Board Member, Geomechanics and Engineering, 2026 – present",
+    "Member, ISSMGE TC104 Physical Modelling in Geotechnics, 2026 – present",
+    "Member, ISSMGE TC203 Earthquake Geotechnical Engineering, 2026 – present",
+    "Member, Korean National Committee on Large Dams (Dam Safety Subcommittee), 2025 – present",
+    "Member, Korean Society of Civil Engineers, 2023 – present",
+    "Member, Earthquake Engineering Society of Korea, 2021 – present",
+    "Member, Korean Society of Geotechnical Engineers, 2016 – present"
+   ],
+   "title2": "Associate Director, KOCED Geotechnical Centrifuge Testing Center"
+  },
+  {
+   "id": "donghyeongchoi",
+   "name": "Dong-Hyeong Choi",
+   "degree": "Ph.D.",
+   "group": "postdoc",
+   "role": "Postdoctoral Researcher",
+   "since": "Fall 2025",
+   "interests": [
+    "Soil liquefaction",
+    "Seismic incoherency"
+   ],
+   "education": [
+    "Ph.D., Civil and Environmental Engineering, KAIST, 2025",
+    "M.S., Civil and Environmental Engineering, KAIST, 2021",
+    "B.S., Geological Science, Pusan National University, 2019"
+   ],
+   "aliases": [
+    "Choi, D. H."
+   ]
+  },
+  {
+   "id": "hwanwooseo",
+   "name": "Hwanwoo Seo",
+   "degree": "Ph.D.",
+   "group": "postdoc",
+   "role": "Postdoctoral Researcher",
+   "since": "Summer 2026",
+   "interests": [
+    "Ground motion modeling",
+    "Geophysical investigation"
+   ],
+   "education": [
+    "Ph.D., Disaster Management Engineering, UNIST, 2025",
+    "B.S., Environmental Science and Engineering, UNIST, 2019"
+   ],
+   "aliases": [
+    "Seo, H."
+   ]
+  },
+  {
+   "id": "jaewookang",
+   "name": "Jaewoo Kang",
+   "group": "phd",
+   "role": "Ph.D. Student",
+   "since": "Fall 2025",
+   "interests": [
+    "Dynamic soil-foundation-structure interaction"
+   ],
+   "education": [
+    "B.S., Civil and Environmental Engineering, KAIST, 2023"
+   ],
+   "aliases": [
+    "Kang, J."
+   ]
+  },
+  {
+   "id": "jinyongkim",
+   "name": "Jinyong Kim",
+   "group": "phd",
+   "role": "Ph.D. Student",
+   "since": "Spring 2027",
+   "interests": [
+    "Soil liquefaction",
+    "Dynamic soil-foundation-structure interaction"
+   ],
+   "education": [
+    "M.S., Civil and Environmental Engineering, KAIST, 2026",
+    "B.S., Civil Engineering, Kyung Hee University, 2023"
+   ],
+   "aliases": [
+    "Kim, J."
+   ]
+  },
+  {
+   "id": "gunhakkim",
+   "name": "Gunhak Kim",
+   "group": "ms",
+   "role": "M.S. Student",
+   "since": "Spring 2026",
+   "interests": [
+    "Topographic effects on site amplification"
+   ],
+   "education": [
+    "B.S., Civil and Architectural Engineering, Sungkyunkwan University, 2026"
+   ],
+   "aliases": [
+    "Kim, G."
+   ]
+  },
+  {
+   "id": "changsungyim",
+   "name": "Changsung Yim",
+   "group": "ms",
+   "role": "M.S. Student",
+   "since": "Fall 2026",
+   "interests": [
+    "Centrifuge and numerical modeling of blast-induced ground response"
+   ],
+   "education": [
+    "B.S., Civil Engineering, Kyung Hee University, 2026"
+   ],
+   "aliases": [
+    "Yim, C."
+   ]
+  },
+  {
+   "id": "minseonglee",
+   "name": "Minseong Lee",
+   "group": "ms",
+   "role": "M.S. Student",
+   "since": "Spring 2027",
+   "interests": [
+    "Geophysical investigation"
+   ],
+   "education": [
+    "B.S., Civil Engineering, Kyung Hee University, 2027"
+   ],
+   "aliases": [
+    "Lee, M."
+   ]
+  },
+  {
+   "id": "hyelimpark",
+   "name": "Hyelim Park",
+   "group": "ug",
+   "role": "Undergraduate Researcher",
+   "since": "Spring 2025",
+   "interests": [
+    "Soil liquefaction",
+    "Probabilistic liquefaction hazard assessment"
+   ],
+   "education": [
+    "B.S. candidate, Civil and Environmental Engineering, KAIST"
+   ],
+   "aliases": [
+    "Park, H."
+   ]
+  },
+  {
+   "id": "kyeongminnoh",
+   "name": "Kyeongmin Noh",
+   "group": "ug",
+   "role": "Undergraduate Researcher",
+   "since": "Fall 2025",
+   "interests": [
+    "Ground motion modeling"
+   ],
+   "education": [
+    "B.S. candidate, Civil and Environmental Engineering, KAIST"
+   ],
+   "aliases": [
+    "Noh, K."
+   ]
+  },
+  {
+   "id": "wonilkim",
+   "name": "Wonil Kim",
+   "group": "ug",
+   "role": "Undergraduate Researcher",
+   "since": "Fall 2026",
+   "interests": [],
+   "education": [
+    "B.S. candidate, Civil and Environmental Engineering, KAIST"
+   ],
+   "aliases": [
+    "Kim, W."
+   ]
+  },
+  {
+   "id": "chanseonlee",
+   "name": "Chan Seon Lee",
+   "group": "staff",
+   "role": "Administrative Assistant",
+   "affiliation": "KOCED Geotechnical Centrifuge Testing Center",
+   "aliases": [
+    "Lee, C. S."
+   ]
+  },
+  {
+   "id": "sungboklee",
+   "name": "Sung-Bok Lee",
+   "group": "staff",
+   "role": "Researcher and Operations Manager",
+   "affiliation": "KOCED Geotechnical Centrifuge Testing Center",
+   "aliases": [
+    "Lee, S. B."
+   ]
+  },
+  {
+   "id": "yonghyunkang",
+   "name": "Yonghyun Kang",
+   "group": "staff",
+   "role": "Research Engineer",
+   "affiliation": "KOCED Geotechnical Centrifuge Testing Center",
+   "aliases": [
+    "Kang, Y."
+   ]
+  }
+ ],
+ "alumni": [
+  {
+   "name": "Jinyong Kim",
+   "level": "M.S.",
+   "years": "2024 – 2025",
+   "note": "Department of Civil and Environmental Engineering, KAIST; primary advisor Prof. Jinhyun Choo (SNU)"
+  },
+  {
+   "name": "Haewon Seo",
+   "level": "Undergraduate",
+   "years": "2026",
+   "note": "Department of Civil and Environmental Engineering, KAIST"
+  },
+  {
+   "name": "Nasution Ahmad Carleone",
+   "level": "Undergraduate",
+   "years": "2025 – 2026",
+   "note": "Department of Civil and Environmental Engineering, KAIST"
+  },
+  {
+   "name": "Sungwoo Joo",
+   "level": "Undergraduate",
+   "years": "2025",
+   "note": "Department of Chemical and Biomolecular Engineering, KAIST"
+  },
+  {
+   "name": "Sumin Cha",
+   "level": "Undergraduate",
+   "years": "2025",
+   "note": "Department of Mechanical Engineering, POSTECH"
+  },
+  {
+   "name": "Tiffany Lim",
+   "level": "Undergraduate intern",
+   "years": "2025",
+   "note": "Department of Environmental Earth Systems Science, NTU Singapore"
+  }
+ ],
+ "publications": [
+  {
+   "id": "j27",
+   "type": "journal",
+   "year": 2027,
+   "authors": "Hwang, Y. W.*, Wang, J. S., Yang, C. H., Liang, J., and Ko, K. W.",
+   "title": "A Probabilistic Energy-Based Framework for Performance-Based Liquefaction Hazard Assessment: From Triggering to Consequence",
+   "venue": "Soil Dynamics and Earthquake Engineering",
+   "detail": "Vol. 212, 110717",
+   "doi": "10.1016/j.soildyn.2026.110717"
+  },
+  {
+   "id": "j26",
+   "type": "journal",
+   "year": 2026,
+   "authors": "Kayen, R. and Ko, K. W.*",
+   "title": "Energy-Based Methods for Seismic Soil Liquefaction: Past, Present, and Future",
+   "venue": "Indian Geotechnical Journal",
+   "detail": "Vol. 56, No. 9, pp. 4400–4411",
+   "doi": "10.1007/s40098-026-01480-y",
+   "note": "Keynote paper, Indian Geotechnical Conference 2025"
+  },
+  {
+   "id": "j25",
+   "type": "journal",
+   "year": 2026,
+   "authors": "Park, J., An, J. B., Ko, K. W.*, and Cho, G. C.*",
+   "title": "Soil-tunnel interaction for segmental linings with non-planar longitudinal joints via centrifuge modeling",
+   "venue": "Tunnelling and Underground Space Technology",
+   "detail": "Vol. 168, Part 2, 107206",
+   "doi": "10.1016/j.tust.2025.107206"
+  },
+  {
+   "id": "j24",
+   "type": "journal",
+   "year": 2025,
+   "authors": "Ko, K. W.*, Kayen, R., and Nweke, C.",
+   "title": "Estimation of Timing of Liquefaction using Spectral Energy Ratio",
+   "venue": "Journal of Geotechnical and Geoenvironmental Engineering",
+   "detail": "Vol. 151, No. 4, 04025017",
+   "doi": "10.1061/JGGEFK.GTENG-12442",
+   "note": "Selected as ASCE Editor's Choice"
+  },
+  {
+   "id": "j23",
+   "type": "journal",
+   "year": 2024,
+   "authors": "Ko, K. W.*, Kayen, R., Kokusho, T., Ilgac, M., Nozu, A., and Nweke, C.",
+   "title": "Energy-Based Liquefaction Evaluation: A Case Study at the Port of Kushiro, Hokkaido, 2003 Tokachi-Oki Earthquake",
+   "venue": "Journal of Geotechnical and Geoenvironmental Engineering",
+   "detail": "Vol. 150, No. 10, 05024010",
+   "doi": "10.1061/JGGEFK.GTENG-11989"
+  },
+  {
+   "id": "j22",
+   "type": "journal",
+   "year": 2024,
+   "authors": "Ko, K. W. and Kayen, R.*",
+   "title": "Energy-Based and Strain-Based Methods for Estimation of Pore Water Pressure within Liquefied Soil Layers",
+   "venue": "Journal of Geotechnical and Geoenvironmental Engineering",
+   "detail": "Vol. 150, No. 10, 04224086",
+   "doi": "10.1061/JGGEFK.GTENG-11458"
+  },
+  {
+   "id": "j21",
+   "type": "journal",
+   "year": 2024,
+   "authors": "Lee, J. S.*, Lee, S. U., and Ko, K. W.",
+   "title": "Effect of Strong Motion on Liquefaction-Induced Settlement of Shallow Foundations using 3D Numerical Analysis",
+   "venue": "KSCE Journal of Civil Engineering",
+   "detail": "Vol. 28, No. 8, pp. 3224–3236",
+   "doi": "10.1007/s12205-024-2675-y"
+  },
+  {
+   "id": "j20",
+   "type": "journal",
+   "year": 2024,
+   "authors": "Choi, D. H., Kwon, T. H., and Ko, K. W.*",
+   "title": "Centrifuge modeling of soil liquefaction of a Pohang sand layer during the 2017 Pohang earthquake",
+   "venue": "KSCE Journal of Civil Engineering",
+   "detail": "Vol. 28, No. 8, pp. 3176–3191",
+   "doi": "10.1007/s12205-024-1228-8"
+  },
+  {
+   "id": "j19",
+   "type": "journal",
+   "year": 2024,
+   "authors": "Ko, K. W., Lee, S. B., Oh, T. S., Kim, N. R., and Kim, J. H.*",
+   "title": "Performance Evaluation of Sand Pluviation Methods Considering Spatial Variation in Model Box",
+   "venue": "KSCE Journal of Civil Engineering",
+   "detail": "Vol. 28, No. 12, pp. 5452–5463",
+   "doi": "10.1007/s12205-024-2093-1"
+  },
+  {
+   "id": "j18",
+   "type": "journal",
+   "year": 2023,
+   "authors": "Ko, K. W. and Kayen, R.*",
+   "title": "Effect of Structure-to-Foundation Mass Ratio in Analytical Modeling of Soil-Foundation-Structure Interaction During Earthquakes",
+   "venue": "Soil Dynamics and Earthquake Engineering",
+   "detail": "Vol. 172, 108050",
+   "doi": "10.1016/j.soildyn.2023.108050"
+  },
+  {
+   "id": "j17",
+   "type": "journal",
+   "year": 2023,
+   "authors": "Ko, K. W., Ha, J. G., Lee, J. S., and Cho, G. C.*",
+   "title": "Sensitivity Analysis of Mass Ratio Effect on Settlement and Seismic Response of Shallow Foundation Using Numerical Simulation",
+   "venue": "Geomechanics and Engineering",
+   "detail": "Vol. 34, No. 6, pp. 649–664",
+   "doi": "10.12989/gae.2023.34.6.649"
+  },
+  {
+   "id": "j16",
+   "type": "journal",
+   "year": 2022,
+   "authors": "Lee, J. S.*, Park, C. S., Kwon, K. Y., Song, J. H., Kim, K. J., Kim, N. S., and Ko, K. W.",
+   "title": "Numerical back-analysis of caisson quay walls in the Yeong-il bay port during the 2017 Pohang earthquake",
+   "venue": "KSCE Journal of Civil Engineering",
+   "detail": "Vol. 26, No. 10, pp. 4290–4301",
+   "doi": "10.1007/s12205-022-0950-3"
+  },
+  {
+   "id": "j15",
+   "type": "journal",
+   "year": 2022,
+   "authors": "Kim, Y. S., Lee, M. G., Cho, G. C., and Ko, K. W.*",
+   "title": "Inertial Behavior of Gravity-Type Quay Wall: A Case Study Using Dynamic Centrifuge Test",
+   "venue": "Soil Dynamics and Earthquake Engineering",
+   "detail": "Vol. 155, 107196",
+   "doi": "10.1016/j.soildyn.2022.107196"
+  },
+  {
+   "id": "j14",
+   "type": "journal",
+   "year": 2022,
+   "authors": "Ko, K. W., Ha, J. G.*, and Kim, D. S.",
+   "title": "Analytical Evaluation and Experimental Validation on Dynamic Rocking Behavior for Shallow Foundation Considering Structural Response",
+   "venue": "Earthquake Engineering and Engineering Vibration",
+   "detail": "Vol. 21, No. 1, pp. 37–51",
+   "doi": "10.1007/s11803-022-2075-6"
+  },
+  {
+   "id": "j13",
+   "type": "journal",
+   "year": 2022,
+   "authors": "Kim, Y. A., Lee, H. I., Ko, K. W.*, and Kwon, T. H.",
+   "title": "Centrifuge modeling and analytical validation of seismic amplification in a slope during earthquakes – Implications to seismic slope stability analysis",
+   "venue": "Soil Dynamics and Earthquake Engineering",
+   "detail": "Vol. 163, 107502",
+   "doi": "10.1016/j.soildyn.2022.107502"
+  },
+  {
+   "id": "j12",
+   "type": "journal",
+   "year": 2021,
+   "authors": "Ko, K. W. and Ha, J. G.*",
+   "title": "Ground Motion Intensity Measure to Evaluate Seismic Performance of Rocking Foundation System",
+   "venue": "Earthquakes and Structures",
+   "detail": "Vol. 21, No. 6, pp. 563–576",
+   "doi": "10.12989/eas.2021.21.6.563"
+  },
+  {
+   "id": "j11",
+   "type": "journal",
+   "year": 2021,
+   "authors": "Ko, K. W., Ha, J. G., Park, H. J., and Kim, D. S.*",
+   "title": "Investigation of Period-Lengthening Ratio for Single-Degree-of-Freedom Structures Using Dynamic Centrifuge Test",
+   "venue": "Journal of Earthquake Engineering",
+   "detail": "Vol. 25, No. 7, pp. 1358–1380",
+   "doi": "10.1080/13632469.2019.1576557"
+  },
+  {
+   "id": "j10",
+   "type": "journal",
+   "year": 2021,
+   "authors": "Manandhar, S., Kim, S. N., Ha, J. G., Ko, K. W., Lee, M. G., and Kim, D. S.*",
+   "title": "Liquefaction evaluation using frequency characteristics of acceleration records in KAIST centrifuge tests for LEAP",
+   "venue": "Soil Dynamics and Earthquake Engineering",
+   "detail": "Vol. 140, 106332",
+   "doi": "10.1016/j.soildyn.2020.106332"
+  },
+  {
+   "id": "j09",
+   "type": "journal",
+   "year": 2021,
+   "authors": "Jeong, Y. H., Kim, J. H., Ko, K. W., and Park, H. J.*",
+   "title": "Simplified Estimation of Rotational Stiffness of Tripod Foundation for Offshore Wind Turbine under Cyclic Loadings",
+   "venue": "Applied Ocean Research",
+   "detail": "Vol. 112, 102697",
+   "doi": "10.1016/j.apor.2021.102697"
+  },
+  {
+   "id": "j08",
+   "type": "journal",
+   "year": 2021,
+   "authors": "Jeong, Y. H., Ko, K. W., Kim, D. S., and Kim, J. H.*",
+   "title": "Studies on Cyclic Behavior of Tripod Suction Bucket Foundation System supporting Offshore Wind Turbine using Centrifuge Model Tests",
+   "venue": "Wind Energy",
+   "detail": "Vol. 24, No. 5, pp. 515–529",
+   "doi": "10.1002/we.2586",
+   "note": "Top Cited Article 2022"
+  },
+  {
+   "id": "j07",
+   "type": "journal",
+   "year": 2020,
+   "authors": "Park, H. J., Ko, K. W.*, Song, Y. H., Song, M. J., Jin, S., Ha, J. G., and Kim, D. S.*",
+   "title": "Centrifuge modeling of disconnected piled raft using vertical pushover tests",
+   "venue": "Acta Geotechnica",
+   "detail": "Vol. 15, No. 9, pp. 2637–2648",
+   "doi": "10.1007/s11440-020-00928-6"
+  },
+  {
+   "id": "j06",
+   "type": "journal",
+   "year": 2020,
+   "authors": "Ko, K. W., Ha, J. G., and Kim, D. S.*",
+   "title": "Structural Inertial Interaction Effects on Foundation Behavior",
+   "venue": "Soil Dynamics and Earthquake Engineering",
+   "detail": "Vol. 135, 106238",
+   "doi": "10.1016/j.soildyn.2020.106238"
+  },
+  {
+   "id": "j05",
+   "type": "journal",
+   "year": 2019,
+   "authors": "Ko, K. W., Park, H. J.*, Ha, J. G., Jin, S., Song, Y. H., Song, M. J., and Kim, D. S.*",
+   "title": "Evaluation of Dynamic Bending Moment of Disconnected Piled Raft via Centrifuge Tests",
+   "venue": "Canadian Geotechnical Journal",
+   "detail": "Vol. 56, pp. 1917–1928",
+   "doi": "10.1139/cgj-2018-0248"
+  },
+  {
+   "id": "j04",
+   "type": "journal",
+   "year": 2019,
+   "authors": "Ko, K. W., Ha, J. G., Park, H. J., and Kim, D. S.*",
+   "title": "Centrifuge Modeling of Improved Design for Rocking Foundation Using Short Piles",
+   "venue": "Journal of Geotechnical and Geoenvironmental Engineering",
+   "detail": "Vol. 145, No. 8, 04019031",
+   "doi": "10.1061/(ASCE)GT.1943-5606.0002064"
+  },
+  {
+   "id": "j03",
+   "type": "journal",
+   "year": 2019,
+   "authors": "Ha, J. G., Ko, K. W., Jo, S. B., Park, H. J., and Kim, D. S.*",
+   "title": "Investigation of seismic performance of unconnected pile foundations using dynamic centrifuge tests",
+   "venue": "Bulletin of Earthquake Engineering",
+   "detail": "Vol. 17, No. 5, pp. 2433–2458",
+   "doi": "10.1007/s10518-018-00530-y"
+  },
+  {
+   "id": "j02",
+   "type": "journal",
+   "year": 2018,
+   "authors": "Ko, K. W., Ha, J. G., Park, H. J., and Kim, D. S.*",
+   "title": "Comparison between cyclic and dynamic rocking behavior for embedded shallow foundation using centrifuge tests",
+   "venue": "Bulletin of Earthquake Engineering",
+   "detail": "Vol. 16, No. 11, pp. 5171–5193",
+   "doi": "10.1007/s10518-018-0409-6"
+  },
+  {
+   "id": "j01",
+   "type": "journal",
+   "year": 2018,
+   "authors": "Ko, K. W., Ha, J. G., Park, H. J., and Kim, D. S.*",
+   "title": "Soil-rounding effect on embedded rocking foundation via horizontal slow cyclic tests",
+   "venue": "Journal of Geotechnical and Geoenvironmental Engineering",
+   "detail": "Vol. 144, No. 3, 04018004",
+   "doi": "10.1061/(ASCE)GT.1943-5606.0001848"
+  },
+  {
+   "id": "c21",
+   "type": "conference",
+   "year": 2026,
+   "authors": "Ko, K. W., Bancroft, M. J., DeJong, J., Wilson, D., Boulanger, R., Montgomery, J., Chen, W. Y., and Friesen, S.",
+   "title": "Crack propagation mechanisms in dams and levees caused by vertical offsets in the foundation",
+   "venue": "21st International Conference on Soil Mechanics and Geotechnical Engineering (ICSMGE 2026)",
+   "detail": "Vienna, Austria, June 2026"
+  },
+  {
+   "id": "c20",
+   "type": "conference",
+   "year": 2026,
+   "authors": "Bancroft, M. J., Ko, K. W., DeJong, J., Gardner, M., Montgomery, J., Chen, W. Y., and Friesen, S.",
+   "title": "Scaling effects of g-level and fluid viscosity on flow velocity through transverse cracks in embankment dams and levees",
+   "venue": "11th International Conference on Physical Modelling in Geotechnics (ICPMG 2026)",
+   "detail": "Zurich, Switzerland, June 2026"
+  },
+  {
+   "id": "c19",
+   "type": "conference",
+   "year": 2026,
+   "authors": "Park, D. Y., Choi, D. H., Ko, K. W., Kwon, T. H., and Cho, G. C.",
+   "title": "Soil liquefaction mitigation using crosslinked xanthan gum treatment on coarse sand using a dynamic centrifuge test",
+   "venue": "11th International Conference on Physical Modelling in Geotechnics (ICPMG 2026)",
+   "detail": "Zurich, Switzerland, June 2026"
+  },
+  {
+   "id": "c18",
+   "type": "conference",
+   "year": 2026,
+   "authors": "Bancroft, M. J., Ko, K. W., DeJong, J., Montgomery, J., Friesen, S., and Chen, W. Y.",
+   "title": "Centrifuge Modeling of Cracking and Internal Erosion in Embankment Dams and Levees",
+   "venue": "2026 Annual USSD Conference",
+   "detail": "",
+   "url": "https://ussd.conferencespot.org/2026/content?act=catalyst_activity_53209"
+  },
+  {
+   "id": "c17",
+   "type": "conference",
+   "year": 2024,
+   "authors": "Choi, D. H., Ko, K. W., Lee, S. B., Cho, G. C., and Kwon, T. H.",
+   "title": "Performance Validation of Equivalent Shear Beam Model Container for Dynamic Centrifuge Tests",
+   "venue": "8th International Conference on Earthquake Geotechnical Engineering (8ICEGE)",
+   "detail": "Osaka, Japan, May 7–10, 2024"
+  },
+  {
+   "id": "c16",
+   "type": "conference",
+   "year": 2022,
+   "authors": "Ko, K. W.",
+   "title": "Structural Inertia Impacts on System Deformation under Strong Earthquakes: Case Studies using Dynamic Centrifuge Tests",
+   "venue": "10th International Conference on Physical Modelling in Geotechnics (ICPMG 2022)",
+   "detail": "Daejeon, Korea, September 2022",
+   "note": "Bright Spark Lecture Award"
+  },
+  {
+   "id": "c15",
+   "type": "conference",
+   "year": 2022,
+   "authors": "Park, H. J. and Ko, K. W.",
+   "title": "Advantages of the disconnected piled raft on vertical and seismic load transfer",
+   "venue": "10th International Conference on Physical Modelling in Geotechnics (ICPMG 2022)",
+   "detail": "Daejeon, Korea, September 2022",
+   "note": "Keynote lecture"
+  },
+  {
+   "id": "c14",
+   "type": "conference",
+   "year": 2022,
+   "authors": "Ko, K. W., Ha, J. G., and Cho, G. C.",
+   "title": "Prediction of Maximum Rotation of Rocking Foundation Considering Structural Response During Strong Earthquakes",
+   "venue": "10th International Conference on Physical Modelling in Geotechnics (ICPMG 2022)",
+   "detail": "Daejeon, Korea, September 2022"
+  },
+  {
+   "id": "c13",
+   "type": "conference",
+   "year": 2022,
+   "authors": "Kim, Y. A., Ko, K. W., Lee, H. I., and Kwon, T. H.",
+   "title": "Assessment of Intensity Measures for Seismic Slope Displacement Using Centrifuge Tests",
+   "venue": "10th International Conference on Physical Modelling in Geotechnics (ICPMG 2022)",
+   "detail": "Daejeon, Korea, September 2022"
+  },
+  {
+   "id": "c12",
+   "type": "conference",
+   "year": 2022,
+   "authors": "Choi, D. H., Ko, K. W., and Kwon, T. H.",
+   "title": "Centrifuge Modelling for Dynamic Behaviour of Shallow Foundation on Liquefied Soil",
+   "venue": "10th International Conference on Physical Modelling in Geotechnics (ICPMG 2022)",
+   "detail": "Daejeon, Korea, September 2022"
+  },
+  {
+   "id": "c11",
+   "type": "conference",
+   "year": 2021,
+   "authors": "Ko, K. W., Choi, D. H., Kim, Y. J., Kwon, T. H., and Cho, G. C.",
+   "title": "Centrifuge modeling of soil liquefaction of a Pohang sand layer during the 2017 Pohang earthquake",
+   "venue": "3rd Asian Conference on Physical Modelling in Geotechnics (Asiafuge 2021)",
+   "detail": "Singapore, November 2021"
+  },
+  {
+   "id": "c10",
+   "type": "conference",
+   "year": 2020,
+   "authors": "Kim, Y. S., Ko, K. W., and Kim, D. S.",
+   "title": "Investigation of the dynamic behavior of gravity-type quay wall under saturated condition",
+   "venue": "4th European Conference on Physical Modelling in Geotechnics",
+   "detail": "Luleå, Sweden, September 2020"
+  },
+  {
+   "id": "c09",
+   "type": "conference",
+   "year": 2019,
+   "authors": "Kim, Y. S., Ko, K. W., and Kim, D. S.",
+   "title": "Dynamic centrifuge testing to investigate the dynamic behavior of gravity-type quay wall",
+   "venue": "32nd KKHTCNN Symposium on Civil Engineering",
+   "detail": "Daejeon, Korea, October 2019"
+  },
+  {
+   "id": "c08",
+   "type": "conference",
+   "year": 2019,
+   "authors": "Kim, D. S., Ko, K. W., Park, H. J., Ha, J. G., and Manandhar, S.",
+   "title": "Dynamic centrifuge tests for soil-foundation-structure interaction problems: disconnected piled raft (DPR)",
+   "venue": "7th International Conference on Earthquake Geotechnical Engineering (7ICEGE)",
+   "detail": "Rome, Italy, June 17–20, 2019",
+   "note": "Keynote lecture, presented by K. W. Ko"
+  },
+  {
+   "id": "c07",
+   "type": "conference",
+   "year": 2018,
+   "authors": "Ko, K. W., Ha, J. G., Park, H. J., and Kim, D. S.",
+   "title": "Evaluation of period-lengthening ratio (PLR) of single-degree-of-freedom structure via dynamic centrifuge tests",
+   "venue": "9th International Conference on Physical Modelling in Geotechnics (ICPMG 2018)",
+   "detail": "London, United Kingdom, July 2018"
+  },
+  {
+   "id": "c06",
+   "type": "conference",
+   "year": 2018,
+   "authors": "Ko, K. W., Ha, J. G., Park, H. J., and Kim, D. S.",
+   "title": "Investigation of Rocking Mechanism of Shallow Foundation via Centrifuge Tests",
+   "venue": "5th Geotechnical Earthquake Engineering and Soil Dynamics Conference (GEESD V)",
+   "detail": "Austin, Texas, USA, June 2018"
+  },
+  {
+   "id": "c05",
+   "type": "conference",
+   "year": 2018,
+   "authors": "Kim, D. S. and Ko, K. W.",
+   "title": "Centrifuge modeling of disconnected piled raft (DPR): Vertical load-transfer and seismic behavior",
+   "venue": "7th Technical Conference in Eastern Asia on Geo-Natural Disasters",
+   "detail": "Chengdu, China, May 2018",
+   "note": "Invited talk"
+  },
+  {
+   "id": "c04",
+   "type": "conference",
+   "year": 2017,
+   "authors": "Ko, K. W., Ha, J. G., Park, H. J., Lee, H., and Kim, D. S.",
+   "title": "Evaluation of dynamic bending moment of disconnected pile foundation via dynamic centrifuge tests",
+   "venue": "30th KKHTCNN Symposium on Civil Engineering",
+   "detail": "Taipei, Taiwan, November 2017"
+  },
+  {
+   "id": "c03",
+   "type": "conference",
+   "year": 2017,
+   "authors": "Ha, J. G., Park, H. J., Kim, D. S., Lee, M. G., and Ko, K. W.",
+   "title": "Evaluation of seismic behavior of disconnected pile foundation via dynamic centrifuge tests",
+   "venue": "6th International Young Geotechnical Engineers' Conference (iYGEC6)",
+   "detail": "Seoul, Korea, September 2017"
+  },
+  {
+   "id": "c02",
+   "type": "conference",
+   "year": 2017,
+   "authors": "Ko, K. W., Ha, J. G., Park, H. J., and Kim, D. S.",
+   "title": "Comparison of rocking behavior between conventional and new-type of shallow foundations via centrifuge tests",
+   "venue": "3rd International Conference on Performance-based Design in Earthquake Geotechnical Engineering (PBD-III)",
+   "detail": "Vancouver, Canada, July 2017"
+  },
+  {
+   "id": "c01",
+   "type": "conference",
+   "year": 2016,
+   "authors": "Ko, K. W., Ha, J. G., Park, H. J., and Kim, D. S.",
+   "title": "Soil rounding effect of rocking foundation via centrifuge tests",
+   "venue": "29th KKHTCNN Symposium on Civil Engineering",
+   "detail": "Hong Kong, December 2016"
+  }
+ ],
+ "courses": [
+  {
+   "code": "CE.20030",
+   "title": "Introduction to Geotechnical Engineering",
+   "term": "Spring 2025",
+   "level": "Undergraduate",
+   "text": "Geotechnical terminology and the fundamentals of soil mechanics: phase relationships, classification, compaction, effective stress, fluid flow, consolidation and settlement, and shear strength. Laboratory classes are included. The course prepares students for foundation engineering, dam engineering, soil dynamics, and geotechnical earthquake engineering."
+  },
+  {
+   "code": "CE.60033",
+   "title": "Advanced Soil Dynamics",
+   "term": "Fall 2025",
+   "level": "Graduate",
+   "text": "Dynamics of simple systems (waves, vibrations, single-degree-of-freedom systems), dynamic soil properties (G/Gmax and damping versus strain), waves in infinite and bounded media, and one-dimensional site response analysis. The course gives the theoretical foundation for geotechnical earthquake engineering."
+  },
+  {
+   "code": "CE.50002",
+   "title": "Advanced Geomechanics",
+   "term": "Spring 2026",
+   "level": "Graduate",
+   "text": "Stress- and state-dependent behavior of sands and clays: dilatancy, drained and undrained strength, and stress paths. Critical state soil mechanics and simple models (Mohr–Coulomb, Cam-clay) are used to interpret laboratory tests and to analyze soil strength and deformation."
+  }
+ ],
+ "teachingPhilosophy": "New research and new technology keep expanding what is known, so a teacher has to keep learning and recognize quickly which new developments matter. That takes a firm grip on the fundamentals. The aim in every course is to close the gap between established and new research, to connect fundamental theory with practice, and to help students become self-directed engineers who can solve problems that did not exist when they were students.",
+ "culture": {
+  "lead": "Research begins where something does not work. We go after unsolved problems and trace them back to fundamentals, with the freedom of structured autonomy: flexible but clear guidelines, self-directed growth, and teamwork.",
+  "lookingFor": [
+   {
+    "title": "Teamwork",
+    "text": "We share data, code, failures, and credit. Progress in a centrifuge lab is a team result."
+   },
+   {
+    "title": "A mechanics-oriented mindset",
+    "text": "Tools change; equilibrium, compatibility, and constitutive behavior do not. We want people who reason from mechanics first."
+   },
+   {
+    "title": "Logical communication",
+    "text": "A clear argument, in a figure or a paragraph, is as much a research skill as a good test."
+   },
+   {
+    "title": "Persistence and resilience",
+    "text": "Tests fail, models diverge, and reviewers push back. Keep going, and learn from what broke."
+   },
+   {
+    "title": "Clear storytelling",
+    "text": "Research has to be explained to colleagues, practitioners, and the public."
+   },
+   {
+    "title": "Self-motivation",
+    "text": "Curiosity and a sense of engineering responsibility carry a project further than any schedule."
+   }
+  ],
+  "discourage": [
+   "Competitive over-calculation",
+   "Intellectual rigidity",
+   "Selective transparency and stagnant sharing",
+   "Tool-centric shortcuts",
+   "Isolated individualism"
+  ],
+  "positions": "We welcome undergraduate interns and graduate students (M.S. and Ph.D.) who are interested in geotechnical earthquake engineering and natural hazards. Character and mindset matter as much as academic record: an inquisitive spirit, persistence, respect, humility, and logical thinking. We are always open to discussing methodologies, research ideas, and emerging topics.",
+  "goalsKo": [
+   "재해 발생 메커니즘 분석",
+   "미래 위험 예측과 해결책 제시",
+   "사회기반시설 안정성 평가 기법 개발"
+  ],
+  "apply": {
+   "subject": "[GEHL] University Name – Full Name",
+   "contents": "A brief self-introduction and the specific reasons for your interest in GEHL",
+   "attachments": "CV and academic transcripts"
+  }
+ },
+ "news": [
+  {
+   "id": "n2026-10-20",
+   "date": "2026-10-20",
+   "kind": "visit",
+   "who": "GEHL",
+   "title": "GS E&C visited the KOCED Centrifuge Center",
+   "body": "The lab gave GS E&C a tour of the centrifuge center.",
+   "images": []
+  },
+  {
+   "id": "n2026-09-29",
+   "date": "2026-09-29",
+   "kind": "award",
+   "who": "Jinyong Kim and Gunhak Kim",
+   "title": "Two awards at the 2026 KGS Fall Conference",
+   "body": "Jinyong Kim received the Best Oral Presentation Award and Gunhak Kim received the Outstanding Poster Award at the 2026 Korean Geotechnical Society Fall Conference.",
+   "images": []
+  },
+  {
+   "id": "n2026-09-24",
+   "date": "2026-09-24",
+   "kind": "publication",
+   "who": "Kil-Wan Ko",
+   "title": "New paper in Soil Dynamics and Earthquake Engineering",
+   "body": "A probabilistic energy-based framework for performance-based liquefaction hazard assessment, linking triggering to ground settlement, was published in Soil Dynamics and Earthquake Engineering.",
+   "images": []
+  },
+  {
+   "id": "n2026-09-17",
+   "date": "2026-09-17",
+   "dateLabel": "Sep 17–18, 2026",
+   "kind": "event",
+   "who": "GEHL",
+   "title": "2026 KGS Fall Conference",
+   "body": "Jinyong gave an oral presentation, and Gunhak and Hyelim presented posters. The group also spent time with GeoKAIST members.",
+   "images": []
+  },
+  {
+   "id": "n2026-09-09",
+   "date": "2026-09-09",
+   "kind": "lablife",
+   "who": "GEHL",
+   "title": "Group dinner at Vesta",
+   "body": "",
+   "images": []
+  },
+  {
+   "id": "n2026-08-28",
+   "date": "2026-08-28",
+   "kind": "visit",
+   "who": "GEHL",
+   "title": "ADD visited the KAIST Centrifuge Center",
+   "body": "The Agency for Defense Development visited the centrifuge center. Dr. Ko introduced the facility and the group discussed possible collaboration.",
+   "images": []
+  },
+  {
+   "id": "n2026-08-26",
+   "date": "2026-08-26",
+   "dateLabel": "Aug 26–28, 2026",
+   "kind": "lablife",
+   "who": "GEHL",
+   "title": "2026 GEHL Summer MT in Muju",
+   "body": "",
+   "images": []
+  },
+  {
+   "id": "n2026-08-25",
+   "date": "2026-08-25",
+   "kind": "lablife",
+   "who": "GEHL",
+   "title": "End of the summer study program",
+   "body": "The seven-week program ran three groups on PM4Sand, MASW, and uncertainty quantification. Members shared wrap-up reflections.",
+   "images": []
+  },
+  {
+   "id": "n2026-07-10",
+   "date": "2026-07-10",
+   "kind": "award",
+   "who": "Kil-Wan Ko",
+   "title": "Joined the Editorial Board of IJPMG",
+   "body": "Dr. Ko joined the editorial board of the International Journal of Physical Modelling in Geotechnics, the SCI journal associated with ISSMGE TC104.",
+   "images": []
+  },
+  {
+   "id": "n2026-07-09",
+   "date": "2026-07-09",
+   "kind": "visit",
+   "who": "GEHL",
+   "title": "Welcoming Zayed University leadership",
+   "body": "The President and Vice President of Zayed University visited, discussed research collaboration, and toured the KOCED Geotechnical Centrifuge Center.",
+   "images": []
+  },
+  {
+   "id": "n2026-07-06",
+   "date": "2026-07-06",
+   "kind": "welcome",
+   "who": "GEHL",
+   "title": "Welcome new members",
+   "body": "Dr. Hwanwoo Seo and Changsung Yim joined GEHL, and the summer group study began.",
+   "images": []
+  },
+  {
+   "id": "n2026-07-03",
+   "date": "2026-07-03",
+   "kind": "visit",
+   "who": "GEHL",
+   "title": "Meeting with Professor Onder Cetin",
+   "body": "The group had dinner with Prof. Cetin and discussed liquefaction from a strain-based perspective.",
+   "images": []
+  },
+  {
+   "id": "n2026-07-01a",
+   "date": "2026-07-01",
+   "kind": "welcome",
+   "who": "Hwanwoo Seo",
+   "title": "Dr. Hwanwoo Seo joined GEHL",
+   "body": "Dr. Seo joined the lab as a postdoctoral researcher.",
+   "images": []
+  },
+  {
+   "id": "n2026-07-01b",
+   "date": "2026-07-01",
+   "kind": "award",
+   "who": "Hyelim Park",
+   "title": "Presidential Science Scholarship",
+   "body": "Undergraduate researcher Hyelim Park was selected for the Presidential Science Scholarship.",
+   "images": []
+  },
+  {
+   "id": "n2026-06-29",
+   "date": "2026-06-29",
+   "kind": "talk",
+   "who": "Kil-Wan Ko",
+   "title": "Invited seminar at the IAEA",
+   "body": "Dr. Ko presented to the IAEA External Events Safety Section on identifying the timing of liquefaction triggering from ground-motion records.",
+   "images": []
+  },
+  {
+   "id": "n2026-06-15",
+   "date": "2026-06-15",
+   "dateLabel": "Jun 15–19, 2026",
+   "kind": "talk",
+   "who": "Kil-Wan Ko",
+   "title": "ICSMGE 2026 in Vienna",
+   "body": "Dr. Ko presented on crack propagation in dams and levees caused by foundation vertical offsets at the TC210 committee meeting. The work is a collaboration with UC Davis, Auburn University, and the California DWR. The group also visited the Terzaghi Archive at TU Wien.",
+   "images": []
+  },
+  {
+   "id": "n2026-06-08",
+   "date": "2026-06-08",
+   "dateLabel": "Jun 8–12, 2026",
+   "kind": "talk",
+   "who": "Kil-Wan Ko",
+   "title": "ICPMG 2026 in Zurich",
+   "body": "Dr. Ko chaired a session on onshore and offshore foundations. Mark Bancroft presented on scaling laws for fluids in centrifuge modeling.",
+   "images": []
+  },
+  {
+   "id": "n2026-05-15",
+   "date": "2026-05-15",
+   "kind": "lablife",
+   "who": "GEHL",
+   "title": "Teacher's Day",
+   "body": "A thank-you to the students.",
+   "images": []
+  },
+  {
+   "id": "n2026-04-29",
+   "date": "2026-04-29",
+   "dateLabel": "Apr 29 – May 6, 2026",
+   "kind": "event",
+   "who": "GEHL",
+   "title": "InnoCORE USA",
+   "body": "",
+   "images": []
+  },
+  {
+   "id": "n2026-04-10",
+   "date": "2026-04-10",
+   "kind": "lablife",
+   "who": "GEHL",
+   "title": "Spring party",
+   "body": "",
+   "images": []
+  },
+  {
+   "id": "n2026-04-02",
+   "date": "2026-04-02",
+   "kind": "lablife",
+   "who": "GEHL",
+   "title": "Spring has arrived at KAIST",
+   "body": "Cherry blossoms were in bloom, and the group held its traditional strawberry party.",
+   "images": []
+  },
+  {
+   "id": "n2026-03-31",
+   "date": "2026-03-31",
+   "kind": "visit",
+   "who": "GEHL",
+   "title": "Professor David Frost (Georgia Tech) at KAIST",
+   "body": "Prof. Frost gave a talk, \"Transitioning Bio-Geo-Ideas from Research to Practice,\" toured the centrifuge center, and advised students interested in studying abroad.",
+   "images": []
+  },
+  {
+   "id": "n2026-03-27",
+   "date": "2026-03-27",
+   "dateLabel": "Mar 27–28, 2026",
+   "kind": "event",
+   "who": "GEHL",
+   "title": "2026 KGS Spring Conference",
+   "body": "GEHL members attended the Korean Geotechnical Society spring conference.",
+   "images": []
+  },
+  {
+   "id": "n2026-03-19",
+   "date": "2026-03-19",
+   "dateLabel": "Mar 19–20, 2026",
+   "kind": "talk",
+   "who": "GEHL",
+   "title": "2026 EESK Spring Conference",
+   "body": "Dr. Ko, Dr. Choi, and Jaewoo attended the Earthquake Engineering Society of Korea spring conference. Dr. Choi presented on energy-based liquefaction evaluation using field vibroseis shaking.",
+   "images": []
+  },
+  {
+   "id": "n2026-03-06",
+   "date": "2026-03-06",
+   "kind": "award",
+   "who": "Kil-Wan Ko",
+   "title": "CEE Teaching Excellence Award",
+   "body": "Dr. Ko received the Teaching Excellence Award from the Department of Civil and Environmental Engineering.",
+   "images": []
+  },
+  {
+   "id": "n2026-03-04",
+   "date": "2026-03-04",
+   "kind": "lablife",
+   "who": "GEHL",
+   "title": "Welcoming the Spring 2026 semester",
+   "body": "",
+   "images": []
+  },
+  {
+   "id": "n2026-03-01",
+   "date": "2026-03-01",
+   "kind": "welcome",
+   "who": "Gunhak Kim, Jinyong Kim, and Changsung Yim",
+   "title": "Three new members joined GEHL",
+   "body": "Gunhak Kim, Jinyong Kim, and Changsung Yim joined the lab.",
+   "images": []
+  },
+  {
+   "id": "n2026-02-28",
+   "date": "2026-02-28",
+   "kind": "award",
+   "who": "Dong-Hyeong Choi",
+   "title": "Sejong Science Fellowship",
+   "body": "Dr. Choi received the Sejong Science Fellowship for five years.",
+   "images": []
+  },
+  {
+   "id": "n2026-02-20",
+   "date": "2026-02-20",
+   "kind": "award",
+   "who": "Dong-Hyeong Choi and Jinyong Kim",
+   "title": "Ph.D. and M.S. graduation",
+   "body": "Dr. Dong-Hyeong Choi received his Ph.D. and Jinyong Kim received his M.S.",
+   "images": []
+  },
+  {
+   "id": "n2026-02-13",
+   "date": "2026-02-13",
+   "kind": "talk",
+   "who": "Hyelim Park and Kyeongmin Noh",
+   "title": "Winter research talk",
+   "body": "Two undergraduate researchers presented on random vibration theory and its application to site response analysis.",
+   "images": []
+  },
+  {
+   "id": "n2026-02-11",
+   "date": "2026-02-11",
+   "kind": "publication",
+   "who": "Kil-Wan Ko",
+   "title": "Keynote paper in the Indian Geotechnical Journal",
+   "body": "\"Energy-Based Methods for Seismic Soil Liquefaction: Past, Present, and Future,\" a keynote paper of the Indian Geotechnical Conference 2025, was published in the Indian Geotechnical Journal.",
+   "images": []
+  },
+  {
+   "id": "n2026-01-26",
+   "date": "2026-01-26",
+   "kind": "lablife",
+   "who": "GEHL",
+   "title": "Cleaning day",
+   "body": "The centrifuge center was deep cleaned and reorganized.",
+   "images": []
+  },
+  {
+   "id": "n2026-01-09",
+   "date": "2026-01-09",
+   "kind": "award",
+   "who": "Kil-Wan Ko",
+   "title": "2025 KSCE Young Researcher Award",
+   "body": "Dr. Ko received the Young Researcher Award from the Korean Society of Civil Engineers, recognizing the paper on performance evaluation of sieve and curtain pluviators.",
+   "images": []
+  },
+  {
+   "id": "n2026-01-02",
+   "date": "2026-01-02",
+   "kind": "visit",
+   "who": "GEHL",
+   "title": "Dinner with Prof. Amalesh Jana",
+   "body": "The group had dinner with Prof. Jana from Montana State University and discussed energy-based liquefaction assessment.",
+   "images": []
+  },
+  {
+   "id": "n2025-12-18",
+   "date": "2025-12-18",
+   "kind": "talk",
+   "who": "Kil-Wan Ko",
+   "title": "Invited seminar for the KGS Dams & Levees Technical Committee",
+   "body": "\"Risk Assessment of Concentrated Leak Erosion in Dams and Levees – RMC Toolbox and Centrifuge Tests.\"",
+   "images": []
+  },
+  {
+   "id": "n2025-12-16",
+   "date": "2025-12-16",
+   "kind": "award",
+   "who": "Hyelim Park",
+   "title": "Selected for the 2026 KAIST Long-Term URP Program",
+   "body": "Hyelim was selected for KAIST's 2026 Long-Term Undergraduate Research Program (Creative Research) for a year-long project, \"Probabilistic Liquefaction Hazard Assessment for Pohang Region under Future Earthquake Scenarios.\"",
+   "images": []
+  },
+  {
+   "id": "n2025-12-08",
+   "date": "2025-12-08",
+   "dateLabel": "Dec 8–10, 2025",
+   "kind": "talk",
+   "who": "Kil-Wan Ko",
+   "title": "KAIST–NYU Abu Dhabi Joint Workshop",
+   "body": "Dr. Ko gave a talk, \"KAIST Geo-Centrifuge Testing Center,\" at NYU Abu Dhabi. KAIST CEE faculty also met the Dubai Municipality to discuss collaboration.",
+   "images": []
+  },
+  {
+   "id": "n2025-12-01",
+   "date": "2025-12-01",
+   "kind": "talk",
+   "who": "Kil-Wan Ko",
+   "title": "Invited seminar at UNIST",
+   "body": "\"Geotechnical Centrifuge Modeling and Energy-Based Soil Liquefaction Evaluation.\"",
+   "images": []
+  },
+  {
+   "id": "n2025-11-12",
+   "date": "2025-11-12",
+   "kind": "talk",
+   "who": "Kil-Wan Ko",
+   "title": "Korea National Railway & KAIST Joint Workshop",
+   "body": "\"Geotechnical Earthquake Engineering Research using Centrifuge Tests.\"",
+   "images": []
+  },
+  {
+   "id": "n2025-11-06",
+   "date": "2025-11-06",
+   "kind": "lablife",
+   "who": "GEHL",
+   "title": "Fall welcome walk at Donghaksa",
+   "body": "",
+   "images": []
+  },
+  {
+   "id": "n2025-10-30",
+   "date": "2025-10-30",
+   "dateLabel": "Oct 30–31, 2025",
+   "kind": "event",
+   "who": "GEHL",
+   "title": "Open KAIST and Hello KAIST",
+   "body": "The lab gave centrifuge center tours to 201 visitors during Open KAIST and to 11 incoming undergraduates during Hello KAIST.",
+   "images": []
+  },
+  {
+   "id": "n2025-09-29",
+   "date": "2025-09-29",
+   "kind": "talk",
+   "who": "Kil-Wan Ko",
+   "title": "K-water and KGS Dams & Levees invited seminar",
+   "body": "\"Centrifuge Modeling for Crack Propagation and Concentrated Leak Erosion Mechanisms in Dams and Levees.\"",
+   "images": []
+  },
+  {
+   "id": "n2025-09-25",
+   "date": "2025-09-25",
+   "kind": "talk",
+   "who": "Kil-Wan Ko",
+   "title": "KGS invited seminar and KOCED Centrifuge Center tour",
+   "body": "\"Energy-Based Soil Liquefaction and Estimation of Timing of Liquefaction Using Spectral Energy Ratio.\" Participants toured the KOCED Centrifuge Center, introduced by Dr. Choi, before talks by Dr. Tessari (RPI), Dr. Han (KICT), and Dr. Ko.",
+   "images": []
+  },
+  {
+   "id": "n2025-09-18",
+   "date": "2025-09-18",
+   "kind": "lablife",
+   "who": "GEHL",
+   "title": "GeoKAIST gathering",
+   "body": "",
+   "images": []
+  },
+  {
+   "id": "n2025-09-01",
+   "date": "2025-09-01",
+   "kind": "welcome",
+   "who": "Dong-Hyeong Choi",
+   "title": "Dr. Dong-Hyeong Choi joined GEHL",
+   "body": "",
+   "images": []
+  },
+  {
+   "id": "n2025-08-19",
+   "date": "2025-08-19",
+   "kind": "award",
+   "who": "Kil-Wan Ko",
+   "title": "Dam Safety Subcommittee, KNCOLD",
+   "body": "Dr. Ko became a committee member of the Dam Safety Subcommittee of the Korean National Committee on Large Dams.",
+   "images": []
+  },
+  {
+   "id": "n2025-08-04",
+   "date": "2025-08-04",
+   "dateLabel": "Aug 4–16, 2025",
+   "kind": "event",
+   "who": "GEHL",
+   "title": "Collaborative centrifuge tests at UC Davis",
+   "body": "The team ran the centrifuge with Jason DeJong, Mark Bancroft, and Dan Wilson.",
+   "images": []
+  },
+  {
+   "id": "n2025-07-29",
+   "date": "2025-07-29",
+   "dateLabel": "Jul 29 – Aug 1, 2025",
+   "kind": "event",
+   "who": "GEHL",
+   "title": "Research meeting at UC Berkeley",
+   "body": "Discussions with Dr. Chen on collaborative research.",
+   "images": []
+  },
+  {
+   "id": "n2025-07-25",
+   "date": "2025-07-25",
+   "kind": "visit",
+   "who": "GEHL",
+   "title": "KEPRI visited the KOCED Centrifuge Center",
+   "body": "",
+   "images": []
+  },
+  {
+   "id": "n2025-07-17",
+   "date": "2025-07-17",
+   "kind": "lablife",
+   "who": "GEHL",
+   "title": "The first group dinner",
+   "body": "",
+   "images": []
+  },
+  {
+   "id": "n2025-07-14",
+   "date": "2025-07-14",
+   "kind": "talk",
+   "who": "Kil-Wan Ko",
+   "title": "Seminar at Pukyong National University",
+   "body": "\"Geo-Centrifuge Modeling and Geotechnical Earthquake Engineering,\" with the research groups of Prof. Jongchan Kim and Prof. Yeong-Man Kwon.",
+   "images": []
+  },
+  {
+   "id": "n2025-07-08",
+   "date": "2025-07-08",
+   "kind": "welcome",
+   "who": "Jaewoo Kang",
+   "title": "Jaewoo Kang joined GEHL",
+   "body": "Jaewoo joined the lab for his Ph.D. study.",
+   "images": []
+  },
+  {
+   "id": "n2025-07-07",
+   "date": "2025-07-07",
+   "kind": "welcome",
+   "who": "Tiffany Lim",
+   "title": "Summer intern from NTU Singapore",
+   "body": "Tiffany Lim joined GEHL for a summer internship.",
+   "images": []
+  },
+  {
+   "id": "n2025-06-24",
+   "date": "2025-06-24",
+   "kind": "visit",
+   "who": "GEHL",
+   "title": "Hong Kong PolyU visited the KOCED Centrifuge Center",
+   "body": "",
+   "images": []
+  },
+  {
+   "id": "n2025-06-16",
+   "date": "2025-06-16",
+   "kind": "welcome",
+   "who": "Hyelim Park, Sungwoo Joo, and Sumin Cha",
+   "title": "Three undergraduate researchers joined GEHL",
+   "body": "Hyelim Park, Sungwoo Joo, and Sumin Cha started individual research projects.",
+   "images": []
+  },
+  {
+   "id": "n2025-05-15",
+   "date": "2025-05-15",
+   "kind": "lablife",
+   "who": "GEHL",
+   "title": "Teacher's Day with the CE230 TAs and Dr. Kim (KAERI)",
+   "body": "",
+   "images": []
+  },
+  {
+   "id": "n2025-04-11",
+   "date": "2025-04-11",
+   "kind": "talk",
+   "who": "Kil-Wan Ko",
+   "title": "Talk at Hyundai Engineering & Construction",
+   "body": "\"Centrifuge Modeling of Disconnected Piled Raft (DPR): Static and Dynamic.\"",
+   "images": []
+  },
+  {
+   "id": "n2025-04-02",
+   "date": "2025-04-02",
+   "kind": "award",
+   "who": "Kil-Wan Ko",
+   "title": "ASCE Editor's Choice",
+   "body": "\"Estimation of Timing of Liquefaction using Spectral Energy Ratio\" was selected as an Editor's Choice paper of the ASCE Journal of Geotechnical and Geoenvironmental Engineering.",
+   "images": []
+  },
+  {
+   "id": "n2025-04-01",
+   "date": "2025-04-01",
+   "kind": "publication",
+   "who": "Kil-Wan Ko",
+   "title": "New paper in the ASCE Journal of Geotechnical and Geoenvironmental Engineering",
+   "body": "\"Estimation of Timing of Liquefaction using Spectral Energy Ratio\" was published.",
+   "images": []
+  },
+  {
+   "id": "n2025-03-27",
+   "date": "2025-03-27",
+   "dateLabel": "Mar 27–28, 2025",
+   "kind": "event",
+   "who": "GEHL",
+   "title": "2025 KGS Spring Conference",
+   "body": "Attended with Prof. Yeong-Man Kwon of Pukyong National University.",
+   "images": []
+  },
+  {
+   "id": "n2025-03-05",
+   "date": "2025-03-05",
+   "kind": "talk",
+   "who": "Kil-Wan Ko",
+   "title": "GeoKAIST Seminar",
+   "body": "\"Reconceptualization of Soil Liquefaction Assessment: Energy-Based Approach.\"",
+   "images": []
+  },
+  {
+   "id": "n2025-03-01",
+   "date": "2025-03-01",
+   "kind": "welcome",
+   "who": "Kil-Wan Ko",
+   "title": "GEHL opens at KAIST",
+   "body": "Dr. Ko started as an assistant professor in the Department of Civil and Environmental Engineering at KAIST.",
+   "images": []
+  },
+  {
+   "id": "b2025-01-15",
+   "date": "2025-01-15",
+   "era": "before",
+   "kind": "lablife",
+   "who": "Kil-Wan Ko",
+   "title": "Farewell party at UC Davis CGM",
+   "body": "With friends, advisors, and staff of the Center for Geotechnical Modeling.",
+   "images": []
+  },
+  {
+   "id": "b2024-11-28",
+   "date": "2024-11-28",
+   "era": "before",
+   "kind": "lablife",
+   "who": "Kil-Wan Ko",
+   "title": "Thanksgiving at Prof. Kayen's house",
+   "body": "",
+   "images": []
+  },
+  {
+   "id": "b2024-11-21",
+   "date": "2024-11-21",
+   "era": "before",
+   "kind": "talk",
+   "who": "Kil-Wan Ko",
+   "title": "UC Davis GGSS seminar",
+   "body": "",
+   "images": []
+  },
+  {
+   "id": "b2024-11-15",
+   "date": "2024-11-15",
+   "era": "before",
+   "kind": "lablife",
+   "who": "Kil-Wan Ko",
+   "title": "Birthday with UC Davis friends at CGM",
+   "body": "With Laura, Mark, Jose Luis, David, and Hyeonjung.",
+   "images": []
+  },
+  {
+   "id": "b2024-08-30",
+   "date": "2024-08-30",
+   "era": "before",
+   "kind": "event",
+   "who": "Kil-Wan Ko",
+   "title": "Dam erosion centrifuge test at UC Davis CGM",
+   "body": "With Prof. DeJong after the test.",
+   "images": []
+  },
+  {
+   "id": "b2024-08-29",
+   "date": "2024-08-29",
+   "era": "before",
+   "kind": "event",
+   "who": "Kil-Wan Ko",
+   "title": "The first dam cracking centrifuge test at UC Davis CGM",
+   "body": "With Chad, Erik, Anatoliy, Dan, and Jason after the tests, and with Prof. DeJong before the test.",
+   "images": []
+  },
+  {
+   "id": "b2024-08-23",
+   "date": "2024-08-23",
+   "era": "before",
+   "kind": "lablife",
+   "who": "Kil-Wan Ko",
+   "title": "REU undergraduate intern's last day at CGM",
+   "body": "",
+   "images": []
+  },
+  {
+   "id": "b2024-08-01",
+   "date": "2024-08-01",
+   "dateLabel": "Aug 2024",
+   "era": "before",
+   "kind": "event",
+   "who": "Kil-Wan Ko",
+   "title": "Research discussion with Prof. Kutter",
+   "body": "With David and Jose.",
+   "images": []
+  },
+  {
+   "id": "b2024-05-30",
+   "date": "2024-05-30",
+   "era": "before",
+   "kind": "lablife",
+   "who": "Kil-Wan Ko",
+   "title": "Prof. Ross Boulanger signing the liquefaction monograph",
+   "body": "After the numerical modeling meeting.",
+   "images": []
+  },
+  {
+   "id": "b2024-04-02",
+   "date": "2024-04-02",
+   "era": "before",
+   "kind": "talk",
+   "who": "Kil-Wan Ko",
+   "title": "Invited talk at Southern Illinois University Carbondale",
+   "body": "",
+   "images": []
+  },
+  {
+   "id": "b2023-12-09",
+   "date": "2023-12-09",
+   "era": "before",
+   "kind": "lablife",
+   "who": "Kil-Wan Ko",
+   "title": "Year-end party with GGSS UC Davis friends",
+   "body": "",
+   "images": []
+  },
+  {
+   "id": "b2023-10-20",
+   "date": "2023-10-20",
+   "dateLabel": "Oct 2023",
+   "era": "before",
+   "kind": "lablife",
+   "who": "Kil-Wan Ko",
+   "title": "Farewells at UC Berkeley and USC",
+   "body": "The last research meeting with Prof. Kayen (UC Berkeley) and Prof. Nweke (USC) before joining the UC Davis geotechnical group; farewells with Yuval, Makbule, and office friends Jhih-Rou, Eric, and Tianyu.",
+   "images": []
+  },
+  {
+   "id": "b2023-08-15",
+   "date": "2023-08-15",
+   "era": "before",
+   "kind": "lablife",
+   "who": "Kil-Wan Ko",
+   "title": "Group dinner with Prof. Nweke's USC group",
+   "body": "Korean BBQ in Los Angeles.",
+   "images": []
+  },
+  {
+   "id": "b2023-05-05",
+   "date": "2023-05-05",
+   "era": "before",
+   "kind": "event",
+   "who": "Kil-Wan Ko",
+   "title": "Geosystems Engineering Distinguished Lecture Series at UC Berkeley",
+   "body": "With Profs. Kayen, Soga, and Bray and the Korean postdoc group (Jongchan Kim, Wonjun Cha, Youngseok Jo).",
+   "images": []
+  },
+  {
+   "id": "b2022-11-18",
+   "date": "2022-11-18",
+   "era": "before",
+   "kind": "talk",
+   "who": "Kil-Wan Ko",
+   "title": "Invited talk at the 6th Geotechnical Engineering Research Symposium, UC Berkeley",
+   "body": "",
+   "images": []
+  },
+  {
+   "id": "b2022-09-21",
+   "date": "2022-09-21",
+   "era": "before",
+   "kind": "award",
+   "who": "Kil-Wan Ko",
+   "title": "Bright Spark Lecture Award at ICPMG 2022",
+   "body": "",
+   "images": []
+  },
+  {
+   "id": "b2022-08-22",
+   "date": "2022-08-22",
+   "era": "before",
+   "kind": "lablife",
+   "who": "Kil-Wan Ko",
+   "title": "Yellowstone trip with Taiwanese friends",
+   "body": "With Kevin, Jiyun, and Jhih-Rou.",
+   "images": []
+  },
+  {
+   "id": "b2021-11-01",
+   "date": "2021-11-01",
+   "era": "before",
+   "kind": "welcome",
+   "who": "Kil-Wan Ko",
+   "title": "First day of the postdoc at UC Berkeley",
+   "body": "",
+   "images": []
+  }
+ ],
+ "groupPhotos": [
+  {
+   "id": "gp2026",
+   "year": 2026,
+   "date": "2026-04-02",
+   "caption": "Spring 2026. Cherry blossoms at KAIST and the lab's traditional strawberry party.",
+   "image": ""
+  },
+  {
+   "id": "gp2025",
+   "year": 2025,
+   "date": "2025-04-01",
+   "caption": "Spring 2025. GEHL's first spring at KAIST.",
+   "image": ""
+  }
+ ],
+ "teaching": {
+  "goal": "World-best decision makers and leaders in risk assessment",
+  "lead": "Courses at GEHL are built on the experiential learning cycle and use every sense a student has. Each class moves from feeling to talking to thinking to doing: a concrete experience, reflection and discussion on it, a concept that explains it, and an experiment that tests it. The aim is engineers who can make decisions about seismic risk, not only calculate it.",
+  "cycle": [
+   {
+    "k": "Experience",
+    "t": "Concrete experience",
+    "s": "Feeling",
+    "d": "Centrifuge tests, laboratory experiments, and earthquake damage are the starting point. Homework asks students to run an experiment or study a case history before the theory is introduced."
+   },
+   {
+    "k": "Discussion",
+    "t": "Observation and reflection",
+    "s": "Talking",
+    "d": "Case histories from past earthquakes are introduced and discussed in class, so that students put what they saw into words and compare interpretations."
+   },
+   {
+    "k": "Discussion",
+    "t": "Abstract conceptualization",
+    "s": "Thinking",
+    "d": "Recorded motions, site response, and the mechanics behind them turn the observation into a concept the student can carry to a new problem."
+   },
+   {
+    "k": "Innovation",
+    "t": "Active experimentation",
+    "s": "Doing",
+    "d": "Students test the concept in new experiments, analyses, and designs, which produces the next concrete experience and closes the loop."
+   }
+  ],
+  "figure": "img/teaching-philosophy.jpg",
+  "figureCaption": "Teaching philosophy at GEHL: the experiential learning cycle (concrete experience, observation and reflection, abstract conceptualization, active experimentation) run with experiments, case histories, and recorded ground motions.",
+  "quote": "Learning through Experience, Growing through Discussion, and Opening the future through Innovation"
+ }
+}
